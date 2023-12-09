@@ -1,0 +1,129 @@
+body {
+    background:  linear-gradient( #d9482b , #1D2671);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    }
+.del_button,
+.add_button,
+.cleartable {
+    text-align: center;
+}
+.inputbox,
+ .btn_container,
+ .result {
+  text-align: center;
+  margin-bottom: 20px;
+  } 
+  
+  h1 {
+    font-family: tahoma;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+  }
+  
+  p {
+    font-family: 'Trebuchet MS', sans-serif;      
+    font-size: 20px;
+  }
+  
+.right-align {
+    text-align: right; /* Align the content to the right */
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin: 20px 
+  }
+  footer {
+    text-align: center;
+    padding: 20px; /* Adjust as needed */
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid green;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: lightslategray;
+}
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+tr:nth-child(even) {
+    background-color: white;
+}   
+
+tr:hover {
+    background-color: lightsalmon;
+}
+
+.inputbox_payroll {
+    margin-bottom: 20px;
+}
+
+.inputbox_payroll input {
+    margin-bottom: 10px;
+}
+
+.delete {
+    margin-bottom: 10px;
+}
+
+.del_button,
+.add_button,
+.cleartable {
+    margin-bottom: 20px;
+}
+
+.rmv {
+    padding: 8px 16px;
+    background-color: #353839;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.rmv:hover {
+    background-color: #d9482b;
+}
+
+button {
+    display: inline-block;
+    border-radius: 2em;
+    background-color: #f6edec;
+    box-shadow: 0 3px 10px 0 rgba(90, 136, 209);
+    color: black;
+    padding: 15px 32px;
+    font-family: Syne;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  button:hover {
+      background-color: none;
+  }
+  
+  button:active {
+    background-color: #e3c2bf;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
