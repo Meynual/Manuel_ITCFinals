@@ -80,3 +80,38 @@ button:active {
   box-shadow: 0 5px  #414A4C;
   transform: translateY(4px);
 }
+
+
+form {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+label[for="factorial"] {
+  color: white; 
+
+}
+
+label[for="input1"] {
+  color: white;
+
+}
+
+label[for="average"] {
+  color: white; 
+
+}
